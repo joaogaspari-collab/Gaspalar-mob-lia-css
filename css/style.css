@@ -73,3 +73,52 @@ section {
 #destaque a:hover {
     background-color: #455a64;
 }
+
+
+/* Organização dos cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 30px auto 0;
+}
+
+.cards article {
+    flex: 1;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cards article h3 {
+    color: #263238;
+    margin-bottom: 12px;
+}
+
+/* Aparência das seções */
+section h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#sobre {
+    background-color: #e8ecee;
+}
+
+/* Rodapé */
+footer {
+    background-color: #263238;
+    color: white;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 8px 0;
+}
